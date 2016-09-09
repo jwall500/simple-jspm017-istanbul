@@ -25,9 +25,16 @@ jspm init OUTPUT:
            systemjs@0.19.37
     ok   Loader files downloaded successfully
 
+USE ES5 OR ES6 CODE:
+
+    1. Uncomment desired ES in lib/main.js
+    2. Comment out undesired ES in lib/main.js
+
 CREATE COVERAGE BUNDLE:
+
     npm run-script create-coverage-bundle
 
 START SERVER:
+
     npm install
     npm run-script start-server
