@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start-server": "node_modules/.bin/http-server -p 9090",
-    "create-coverage-bundle": "coverage/create-coverage-bundle.js"
+    "create-coverage-bundle": "./create-coverage-bundle.js"
   },
   "author": "",
   "license": "ISC",
