@@ -1,4 +1,4 @@
-jspm init OUTPUT:
+## jspm init OUTPUT:
 
     manteo:simple-jspm-istanbul jwall$ jspm init
     Would you like jspm to prefix the jspm package.json properties under jspm? [yes]:yes
@@ -25,16 +25,20 @@ jspm init OUTPUT:
            systemjs@0.19.37
     ok   Loader files downloaded successfully
 
-USE ES5 OR ES6 CODE:
+## USE ES5 OR ES6 CODE:
+1. Uncomment desired ES in lib/main.js
+2. Comment out undesired ES in lib/main.js
 
-    1. Uncomment desired ES in lib/main.js
-    2. Comment out undesired ES in lib/main.js
+## GETTING STARTED:
+### 1. Get all dependencies
 
-CREATE COVERAGE BUNDLE:
+    $ npm install
+    $ jspm install
 
-    npm run-script create-coverage-bundle
+### 2. Create the bundle used for coverage
 
-START SERVER:
+    $ npm run-script create-coverage-bundle
 
-    npm install
-    npm run-script start-server
+### 3. Start the server
+
+    $ npm run-script start-server
