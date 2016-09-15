@@ -26,7 +26,7 @@ SystemJS.config({
   ],
   map: {},
   packages: {
-    "*" : {
+    "lib" : {
       "defaultExtension": "js"
     }
   }
